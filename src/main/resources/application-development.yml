@@ -1,0 +1,4 @@
+myprofile:
+  message: Hello from development properties / profile
+  username: devuser
+  password : devuser123

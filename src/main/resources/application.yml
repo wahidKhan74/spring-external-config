@@ -1,0 +1,30 @@
+#app.name = My Cool External Config Application
+#app.message =  Today is Good Day & Tommorow is Holiday!
+#app.description = It is a Spring boot app for leaning external configuration
+server:
+  port : 9000
+logging:
+  level:
+    org:
+      springframework: INFO
+
+spring:
+  profiles:
+    active: production
+ 
+app:
+  name: "My Cool External Config Application By YML Files"
+  message: "Today is Good Day & Tommorow is Holiday!"
+  description: "It is a Spring boot app for leaning external configuration"
+  port: 9000
+  server: "Spring Server"
+  
+myconfig:
+  app-name: "External Config App"
+  app-desc: Best spring App
+  username: "John Smith"
+  password: "password"
+  email: john@gmail.com
+
+ 
+  # employee , user, player, app , email( from, to, date, subject, body)

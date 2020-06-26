@@ -1,0 +1,4 @@
+myprofile:
+  message: Hello from production properties / profile
+  username: produser
+  password : produser123
